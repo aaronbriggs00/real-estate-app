@@ -1,0 +1,12 @@
+@listings.map do |listing|
+  {
+    description: listing.description,
+    year_built: listing.year_built,
+    square_feet: listing.square_feet,
+    bedrooms: listing.bedrooms,
+    availability: listing.availability,
+    price: listing.price,
+    latitude: listing.latitude,
+    longitude: listing.longitude
+  }
+end
